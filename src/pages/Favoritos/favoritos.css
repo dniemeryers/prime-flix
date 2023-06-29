@@ -8,6 +8,10 @@
   
 }
 
+.lista-filmes{
+  width:100%;
+}
+
 .filmes-salvos{
   width: 100%;
 }
@@ -21,7 +25,8 @@
 }
 
 .meus-filmes ul{
-  width: 720px;
+  width: 100%;
+  
 }
 
 .meus-filmes ul li{
@@ -29,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 14px;
+  margin: 14px 10px 0 10px;
 }
 
 .meus-filmes div{

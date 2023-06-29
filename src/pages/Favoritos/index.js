@@ -30,7 +30,7 @@ function Favoritos(){
 
       {filmes.length === 0 && <span>Você não possui nenhum filme salvo :( </span>}
 
-      <ul className='filmes-salvo'>
+      <ul>
         {filmes.map((item) => {
           return(
             <li key={item.id}>
