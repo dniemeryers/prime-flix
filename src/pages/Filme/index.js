@@ -4,7 +4,7 @@ import './filme-info.css';
 import{ toast } from 'react-toastify';
 
 import api from '../../services/api'
-
+ 
 
 function Filme(){
   const {id} = useParams();
